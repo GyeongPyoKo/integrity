@@ -8,7 +8,7 @@
             if (win.isKeyWindow) { w = win; break; }
         UIAlertController *a = [UIAlertController
             alertControllerWithTitle:@"Test"
-            message:@"integrity test Gpko"
+            message:@"integrity test"
             preferredStyle:UIAlertControllerStyleAlert];
         [a addAction:[UIAlertAction actionWithTitle:@"OK"
             style:UIAlertActionStyleDefault handler:nil]];
